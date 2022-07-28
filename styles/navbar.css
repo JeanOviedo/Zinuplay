@@ -1,0 +1,56 @@
+
+
+.header{
+
+    height: 80px;
+    background-color: #0000;
+   
+}
+
+.navbar-expand-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: .5s ease all;
+    padding: 4px;
+}
+
+.link-nav:hover{
+    color: rgba(255, 0, 0, 0.856);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
