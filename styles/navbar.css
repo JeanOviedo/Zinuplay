@@ -2,7 +2,7 @@
 
 .header{
 
-    height: 80px;
+    height: 11vh;
     background-color: #0000;
    
 }
@@ -25,14 +25,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .link-nav{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     transition: .5s ease all;
     padding: 4px;
 }
@@ -41,9 +41,17 @@
     color: rgba(255, 0, 0, 0.856);
 }
 
+.navbar-brand img {
+    width: 300px;
+    margin-left: 20px;
+}
 
 
-
+@media (max-width: 900px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+  }
 
 
 
