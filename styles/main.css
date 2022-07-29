@@ -27,6 +27,19 @@
     width: 400px;
     height: 500px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+  }
+
+  .slider-tittle {
+    position: absolute;
+    color: #ffff;
+    top: 20px;
+    left: 25%;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
   }
 
   .swiper-slide img {
