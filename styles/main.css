@@ -34,7 +34,9 @@
     position: absolute;
     color: #ffff;
     top: 20px;
-    left: 25%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
     letter-spacing: 3px;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
     font-weight: bold;
